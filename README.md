@@ -1,6 +1,6 @@
 # 📸 Fix Lightshot FnLock (ms-screensketch)
 
-![Lightshot Fn Fix Banner](assets/lighshot-banner.jpg)
+![Lightshot Fn Fix Banner](assets/lightshot-banner.jpg)
 
 A lightweight, automated Windows script that solves the `ms-screensketch` protocol error on PCs with **FnLock** enabled, especially when the native Windows Snipping Tool is uninstalled or disabled. It allows **Lightshot** to trigger instantly with a single press of the **PrtScn** (Print Screen) key, without holding `Fn`.
 
@@ -40,3 +40,4 @@ To remove the fix and restore the default Windows registry settings, open Comman
 
 ```cmd
 reg delete "HKCU\Software\Classes\ms-screensketch" /f
+```
